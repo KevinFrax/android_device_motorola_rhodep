@@ -1,0 +1,14 @@
+utags.ko
+mmi_relay.ko
+mmi_info.ko
+mmi_annotate.ko
+sensors_class.ko
+moto_f_usbnet.ko
+touchscreen_mmi.ko
+goodix_brl_mmi.ko
+mmi_sys_temp.ko
+cw2217b_fg_mmi.ko
+sm5602_fg_mmi.ko
+tcpc_class.ko
+tcpc_rt1711h.ko
+tcpc_sgm7220.ko
