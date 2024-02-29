@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := motorola
 
-DEVICE_PATH := device/motorola/corfur
+DEVICE_PATH := device/motorola/rhodep
 
 # Architecture
 TARGET_ARCH := arm64
@@ -43,7 +43,7 @@ BOARD_KERNEL_CMDLINE += swiotlb=0 loop.max_part=7 cgroup.memory=nokmem,nosocket
 BOARD_KERNEL_CMDLINE += pcie_ports=compat loop.max_part=7 iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1 androidboot.hab.csv=8
 BOARD_KERNEL_CMDLINE += androidboot.hab.cid=50
-BOARD_KERNEL_CMDLINE += androidboot.hab.product=corfur
+BOARD_KERNEL_CMDLINE += androidboot.hab.product=rhodep
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image
@@ -52,7 +52,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc LLVM=1
-TARGET_KERNEL_SOURCE := kernel/motorola/sm6375
+TARGET_KERNEL_SOURCE := kernel/motorola/rhodep
 TARGET_KERNEL_CONFIG := vendor/holi-qgki_defconfig
 
 #BOARD_KERNEL_BINARIES := kernel
@@ -232,3 +232,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 include vendor/motorola/corfur/BoardConfigVendor.mk
+

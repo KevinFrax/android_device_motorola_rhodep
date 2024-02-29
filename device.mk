@@ -501,4 +501,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/corfur/corfur-vendor.mk)
+$(call inherit-product, vendor/motorola/rhodep/rhodep-vendor.mk)
