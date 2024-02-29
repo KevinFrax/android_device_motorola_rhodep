@@ -275,9 +275,9 @@ vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 
 # Camera - eeprom
-vendor/lib64/camera/com.mot.eeprom.mot_corfup_gc02m1_otp.so
-vendor/lib64/camera/com.mot.eeprom.mot_corfup_ov16a1q_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_corfup_s5k4h7_otp.so
+vendor/lib64/camera/com.mot.eeprom.mot_rhodep_gc02m1_otp.so
+vendor/lib64/camera/com.mot.eeprom.mot_rhodep_ov16a1q_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_rhodep_s5k4h7_otp.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
 
 # Camera - etc
